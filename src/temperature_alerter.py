@@ -1,5 +1,5 @@
 from .temperature_constants import battery_temperature_range
-from .alert_tramsitter import AlertTransmitter
+from .alert_transmitter import AlertTransmitter
 
 
 def infer_breach(value, lowerLimit, upperLimit):
